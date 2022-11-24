@@ -17,6 +17,11 @@ $paragraph = $_GET["paragraph"];
         <p> <?php echo "The Lenght of this paragraph is: " . strlen($paragraph) ?></p>
     </div>
    
-  
+    <div>
+        <h2>Censured Word </h2>
+        <p> <?php $bad_word = str_replace($word, "***", $paragraph) ?></p>
+        <p> <?php echo $bad_word ?> </p>
+        <p> <?php echo "The Lenght of this paragraph is: " . strlen($bad_word) ?></p>
+    </div>
 </body>
 </html>
