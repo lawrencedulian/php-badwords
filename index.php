@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="checkWord.php" method:"GET">
+        <label for="word">Type the Word you want to censor </label>
+        <input type="text" id="word" name="word">
+
+        <label for="paragraph">Type a Paragraph</label>
+        <input type="text" id="paragraph" name="paragraph">
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
